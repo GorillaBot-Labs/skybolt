@@ -21,6 +21,7 @@
     "build:database": "npm run build --workspace=@repo/database",
     "build:types": "npm run build --workspace=@repo/types",
     "build:paginator": "npm run build --workspace=@repo/paginator",
+    "build:tanstack": "npm run build --workspace=tanstack-start",
     "start": "node apps/api/dist/src/main",
     "start:admin": "node apps/admin-api/dist/src/main",
     "docker:up": "docker compose up -d",
