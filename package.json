@@ -9,6 +9,7 @@
     "dev": "dotenv -- turbo run dev --concurrency 11",
     "dev:app": "dotenv -- turbo run dev --filter=api --filter=client",
     "dev:admin": "dotenv -- turbo run dev --filter=admin-api --filter=admin-client",
+    "dev:tanstack": "dotenv -- npm run dev --workspace=tanstack-start",
     "build": "turbo run build",
     "build:client": "npm run build --workspace=client",
     "build:api": "npm run build --workspace=api",
